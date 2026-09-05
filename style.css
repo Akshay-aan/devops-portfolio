@@ -278,12 +278,15 @@ header {
 
 
 .hero-buttons {
-
     display: flex;
-
     flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+}
 
-    gap: 15px;
+.hero-buttons .btn {
+    padding: 13px 18px;
+    font-size: 15px;
 }
 
 
